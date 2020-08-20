@@ -3,6 +3,7 @@
 # Variables
 ### in the templates using {{ site.myvariable }}.
 
+# Author
 title: Yosef Tawil, aka thebeast353
 email: yoseftawil@gmail.com 
 description: >- 
@@ -10,7 +11,11 @@ description: >-
 
 # URLs
 baseurl: "/"
-url: "https://yoseftawil.github.io"   
+url: "https://yoseftawil.github.io" 
+
+# Defaults
+permalink: /blog/:title/
+layout: post
 
 # Twitter
 twitter:

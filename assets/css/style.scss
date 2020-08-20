@@ -22,7 +22,7 @@ header li, #thm_badge {
     margin-right: 10px;
 }
 
-li a {
+.navbar-top li a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -33,7 +33,6 @@ li a {
 }
 
 li a:hover {
-  background-color: #ddd;
   color: gray;
 }
 
@@ -52,4 +51,8 @@ li {
 #thm_badge {
   margin-top: 0;
   margin-left: 20px;
+}
+
+#github-button {
+  margin-top: 5px;
 }

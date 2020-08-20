@@ -1,17 +1,40 @@
 # 'bundle exec jekyll serve' > Restart Server
 
 # Variables
-### in the templates via {{ site.myvariable }}.
+### in the templates using {{ site.myvariable }}.
 
-title: Yosef Tawil, aka thebeast353 # {{ site.title }}
-email: sike@gotchu.com # {{ site.email }}
+title: Yosef Tawil, aka thebeast353
+email: yoseftawil@gmail.com 
 description: >- 
   PenTester, Software Engineer / Full Stack Developer
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yoseftawil
-github_username:  yoseftawil
+# URLs
+baseurl: "/"
+url: "https://yoseftawil.github.io"   
+
+# Twitter
+twitter:
+  url: https://twitter.com/yoseftawil
+  username: yoseftawil
+
+# GitHub
+github:
+  username:  yoseftawil
+  url: https://github.com/yoseftawil/
+
+# YouTube
+youtube:
+  username: DJ Kick
+  url: https://www.youtube.com/channel/UCOqSvQ0fu4OhJ-Mlcrd5e-w
+
+# Instagram
+instagram:
+  username: yoseftawil
+  url: https://www.instagram.com/yoseftawil/
+
+author: Yosef
+
+google_analytics: UA-175861539-1
 
 # Build settings
 markdown: kramdown
@@ -19,14 +42,3 @@ theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

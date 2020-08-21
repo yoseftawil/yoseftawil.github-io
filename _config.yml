@@ -4,8 +4,8 @@
 ### in the templates using {{ site.myvariable }}.
 
 # Author
+author: Yosef
 title: Yosef Tawil, aka thebeast353
-email: yoseftawil@gmail.com 
 description: >- 
   PenTester, Software Engineer / Full Stack Developer
 
@@ -16,6 +16,7 @@ url: "https://yoseftawil.github.io"
 # Defaults
 permalink: /blog/:title/
 layout: post
+excerpt_separator: <!--end-->
 
 # Twitter
 twitter:
@@ -37,8 +38,7 @@ instagram:
   username: yoseftawil
   url: https://www.instagram.com/yoseftawil/
 
-author: Yosef
-
+# Google Analytics
 google_analytics: UA-175861539-1
 
 # Build settings

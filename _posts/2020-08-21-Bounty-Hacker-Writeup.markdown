@@ -1,5 +1,5 @@
 ---
-title: THM Bounty Hacker Writup
+title: THM Bounty Hacker Writeup
 categories:
   - TryHackMe
   - Writeup
@@ -68,7 +68,7 @@ ftp> ls
 ```
 We found two txt files, lets get them and see whats there.
 locks.txt appears to be a wordlist, so well keep that for when we find a username.
-Turns out, the task.txt file gives us a username `lin`, so lets try to bruteforce SSH with what we have. Well use hydra for this one.  
+Turns out, the task.txt file gives us a username `lin`, so lets try to bruteforce SSH with what we have. We will use hydra for this one.  
 `hydra -l lin -P locks.txt ssh://10.10.144.76 -t 4`  
 The -t 4 flag only runs 4 tasks at once, since many SSH configurations wont allow more.
 After a little bit we get the login:
